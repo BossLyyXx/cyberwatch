@@ -47,7 +47,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activePage, setActivePage }) => {
       </nav>
       <div className="mt-auto text-center text-xs text-gray-400">
         <p>เวอร์ชัน 1.0.0</p>
-        <p>&copy; 2024 CYBERWATCH Demo</p>
+        <p>&copy; 2025 CYBERWATCH </p>
       </div>
     </aside>
   );
