@@ -1,0 +1,18 @@
+# Core API
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+python-multipart==0.0.20
+requests==2.32.5
+numpy==2.2.6
+opencv-python-headless==4.12.0.88
+pillow==11.3.0
+
+# Face models (ต้องมีไฟล์โมเดล)
+face-recognition-models==0.3.0
+
+# dlib: ใช้ wheel สำเร็จรูปบน Windows, อื่น ๆ ใช้ dlib ปกติ
+dlib-bin==19.24.6; platform_system == "Windows"
+dlib==19.24.2; platform_system != "Windows"
+
+# face-recognition: ให้ติดตั้งอัตโนมัติบน Linux/mac เท่านั้น
+face-recognition==1.3.0; platform_system != "Windows"

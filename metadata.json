@@ -1,0 +1,7 @@
+{
+  "name": "Copy of สำเนาของ CYBERWATCH",
+  "description": "A sophisticated cybersecurity and surveillance interface for monitoring, analysis, and managing watchlists. It provides real-time scanning, data visualization, and comprehensive auditing capabilities in a professional, high-tech environment.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
